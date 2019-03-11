@@ -47,3 +47,29 @@ nav ul li a {
   font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
   font-size: 110%;
 }
+h2 {
+   color: #107896;
+  text-align: left;
+  font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
+  font-style: italic;
+}
+/* Page 1 - My Resume */
+.myinfo {
+  text-align: center;
+  font-family: 'Arimo:700', 'PT Sans', Helvetica, sans-serif;
+}
+.myname {
+   color: #3C6478;
+   font-size: 200%;
+}
+h3 {
+  display: block;
+  text-align: left;
+  color: #3C6478;  
+}
+.resume {
+  text-align: left-side;
+  display: inline-block;
+  font-family: Cambria, Calibri, Helvetica; 
+}
+
