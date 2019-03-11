@@ -70,4 +70,14 @@ h2 {
   display: inline-block;
   font-family: Cambria, Calibri, Helvetica; 
 }
-
+/* Page 2 - My Bigest Project */
+.house {
+  font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
+  width: 80%;
+}
+.picright {
+  float: right;
+}
+.picleft {
+  float: left;
+}
