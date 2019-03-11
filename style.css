@@ -62,13 +62,11 @@ h2 {
    color: #3C6478;
    font-size: 200%;
 }
-h3 {
-  display: block;
-  text-align: left;
+.resume h3 {
   color: #3C6478;  
 }
 .resume {
-  text-align: left-side;
+  text-align: left;
   display: inline-block;
   font-family: Cambria, Calibri, Helvetica; 
 }
