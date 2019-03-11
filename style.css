@@ -24,6 +24,12 @@ h1 {
   text-decoration: none;
   border-bottom: 0;
 }
+.nav .active {
+  background-color: #107896;
+}  
+a:hover {
+  background-color: #9A2617;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -36,12 +42,8 @@ nav ul li a {
   padding: 10px 50px;
   text-align: center;
   display: inline-block;
-  background-color: #107896;
-  color: #ffffff;
-}
-.nav .active {
   background-color: #43ABC9;
-}  
-a:hover {
-  background-color: #9A2617;
+  color: #ffffff;
+  font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
+  font-size: 110%;
 }
