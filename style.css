@@ -113,19 +113,23 @@ h2 {
   float: right;
   margin-left: 5px;
   margin-bottom: 2px;
-/*  height: 35%;
-  width: 35%;
-  max-height: 484px;
-  max-width: 273; */
   height: 484px;
   width: 273px;
 }
 .vidsize {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 300px;
   width: 400px;
 }
 .fishing {
   font-family: 'Bubblegum Sans', 'Open Sans', 'PT Sans', Helvetica;
-  font-size: 130%;
+  font-size: 150%;
   display: inline-block;
+}
+.hockey {
+  font-family: 'Open Sans', 'PT Sans', Helvetica;
+  font-size: 130%;
+  font-style: italic;
 }
