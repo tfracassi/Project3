@@ -109,7 +109,23 @@ h2 {
   margin-right: auto;
   background: radial-gradient(#BBBB95, #F4F5BC);
 }
+.page3 .imgright {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 2px;
+/*  height: 35%;
+  width: 35%;
+  max-height: 484px;
+  max-width: 273; */
+  height: 484px;
+  width: 273px;
+}
 .vidsize {
   height: 300px;
   width: 400px;
+}
+.fishing {
+  font-family: 'Bubblegum Sans', 'Open Sans', 'PT Sans', Helvetica;
+  font-size: 130%;
+  display: inline-block;
 }
