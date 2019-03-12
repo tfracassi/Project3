@@ -9,10 +9,7 @@ body {
 }
 h1 {
   color: #107896;
-/*  color: #FFFFFF; */
-/*  background-color: #F5F0B3; */
   text-align: center;
-/*  text-shadow: 3px 3px red; */
   height: 5%;
   font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
   font-style: italic;
@@ -27,7 +24,7 @@ h1 {
 .nav .active {
   background-color: #107896;
 }  
-a:hover {
+nav ul li a:hover {
   background-color: #9A2617;
 }
 nav ul {
@@ -41,6 +38,7 @@ nav ul li {
 nav ul li a {
   padding: 10px 50px;
   text-align: center;
+  text-decoration: none;
   display: inline-block;
   background-color: #43ABC9;
   color: #ffffff;
@@ -48,7 +46,7 @@ nav ul li a {
   font-size: 110%;
 }
 h2 {
-   color: #107896;
+  color: #107896;
   text-align: left;
   font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
   font-style: italic;
@@ -56,7 +54,7 @@ h2 {
 /* Page 1 - My Resume */
 .myinfo {
   text-align: center;
-  font-family: 'Arimo:700', 'PT Sans', Helvetica, sans-serif;
+  font-family: 'Arimo:400', 'PT Sans', Helvetica, sans-serif;
 }
 .myname {
    color: #3C6478;
@@ -71,13 +69,37 @@ h2 {
   font-family: Cambria, Calibri, Helvetica; 
 }
 /* Page 2 - My Bigest Project */
+.house h3 {
+  color: #9A2617;  
+  font-family: 'Amatic SC', 'Open Sans', 'PT Sans', Helvetica;
+  font-size: 300%;
+  font-weight: bold;
+  height: 10px;
+  position: relative;
+  top: -10px;
+}
 .house {
-  font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
-  width: 80%;
+  font-family: Helvitica, 'Open Sans', 'PT Sans', sans-serif;
+  padding: 2px 5px 2px 5px;
+  position: relative;
 }
-.picright {
-  float: right;
-}
-.picleft {
+
+.picblock {
+  display: inline-block; 
+
+} 
+.imgleft {
   float: left;
+  margin-right: 10px;
+  margin-bottom: 2px;
+  padding-top: 15px;
+  height: 40%;
+  width: 40%;
+}
+.imgright {
+  float: right;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  height: 75%;
+  width: 75%;
 }
