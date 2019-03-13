@@ -61,8 +61,8 @@ h2 {
   font-family: 'Arimo:400', 'PT Sans', Helvetica, sans-serif;
 }
 .myname {
-   color: #3C6478;
-   font-size: 200%;
+  color: #3C6478;
+  font-size: 200%;
 }
 .resume h3 {
   color: #3C6478;  
@@ -118,6 +118,17 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   background: radial-gradient(#BBBB95, #F4F5BC);
+  padding: 5px 5px 5px 5px;
+}
+.page3 .h2-p {
+  font-family: 'Carter One', 'PT Sans', Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+.page3 h3 {
+  text-decoration: none;
+  border-top-width: 2px;
+  border-top-style: solid;
+  padding-top: 2px;
 }
 .page3 .imgright {
   float: right;
