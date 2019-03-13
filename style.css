@@ -45,6 +45,10 @@ nav ul li a {
   font-family: 'Open Sans', 'PT Sans', Helvetica, sans-serif;
   font-size: 110%;
 }
+#p1-frame {
+  padding: 10px 10px 10px 10px;
+  border-style: solid;
+}
 h2 {
   color: #107896;
   text-align: left;
