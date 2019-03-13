@@ -73,6 +73,13 @@ h2 {
   font-family: Cambria, Calibri, Helvetica; 
 }
 /* Page 2 - My Bigest Project */
+.page2 {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #BFFCEC;
+  background-position: center;
+  background-size: 100% 100%;
+}
 .house h3 {
   color: #9A2617;  
   font-family: 'Amatic SC', 'Open Sans', 'PT Sans', Helvetica;
@@ -90,7 +97,6 @@ h2 {
 
 .picblock {
   display: inline-block; 
-
 } 
 .imgleft {
   float: left;
