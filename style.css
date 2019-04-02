@@ -146,6 +146,13 @@ h2 {
   width: 400px;
 }
 
+.lnkright {
+  float: right;
+  margin-top: -40px;
+  margin-right: 40%;
+  position: relative;
+}
+
 .fishing {
   font-family: 'Bubblegum Sans', 'Open Sans', 'PT Sans', Helvetica;
   font-size: 150%;
