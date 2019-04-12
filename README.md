@@ -1,5 +1,5 @@
-# Project2
-This is for Project2
+# Project3
+This is for Project3
 
-The Project2 repository was created by using "+ Import Repository" of Project1,
-to create the new repository for Project2, and then a new clone was created.
+The Project3 repository was created by using "+ Import Repository" of Project2,
+to create the new repository for Project3, and then a new clone was created.
