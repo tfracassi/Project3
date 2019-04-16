@@ -180,3 +180,14 @@ h2 {
   width: 750px;
   height: 500px;
 }
+@media screen and (max-width: 820px) {
+  #wrapper {
+    width: auto;
+    height: 300px;
+  }
+  #map {
+    margin: 15px;
+    width: inherit;
+    display: block;
+    height: 270px;
+  }

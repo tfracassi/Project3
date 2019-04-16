@@ -1,5 +1,5 @@
 function initMap() {
-  var bridgestone = {lat: 36.159437, lng: -86.778551};
+  var bridgestone = {lat: 36.159190, lng: -86.778497};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 15,
     center: bridgestone
