@@ -168,3 +168,15 @@ h2 {
   font-family: 'Berkshire Swash', 'Open Sans', 'PT Sans', Helvetica;
   font-size: 150%;
 }
+#wrapper {
+  width: 800px;
+  height: 550px;
+  background-color: blue;
+  margin:0 auto;
+  overflow: hidden;
+}#map {
+  background-color: white;
+  margin: 25px auto;
+  width: 750px;
+  height: 500px;
+}
