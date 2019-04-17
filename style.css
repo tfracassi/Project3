@@ -182,24 +182,26 @@ h2 {
   height: 500px;
 }
 @media screen and (max-width: 820px) {
-#wrapper {
-  width: auto;
-  height: 400px;
-}
-#map {
-  margin: 15px;
-  width: inherit;
-  display: block;
-  height: 370px;
+  #wrapper {
+    width: auto;
+    height: 400px;
+  }
+  #map {
+    margin: 15px;
+    width: inherit;
+    display: block;
+    height: 370px;
+  }
 }
 @media screen and (max-width: 400px) {
-#wrapper {
-  width: auto;
-  height: 300px;
-}
-#map {
-  margin: 10px;
-  width: inherit;
-  display: block;
-  height: 280px;
+  #wrapper {
+    width: auto;
+    height: 300px;
+  }
+  #map {
+    margin: 10px;
+    width: inherit;
+    display: block;
+    height: 280px;
+  }
 }
