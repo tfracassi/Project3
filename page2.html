@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ITMD-361 Internet Technologies and Web Design</title>
   <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800" rel="stylesheet">
 </head>
@@ -70,7 +72,35 @@
       <p>
         Thanks for reading!
       </p>	
-    </div>    
+    </div>  
+    <h3>A Photo Slideshow</h3>
+    <div class="slideshow-container">
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="pics_videos/img_pic1.jpg" style="width:100%" alt = "House Pic1">
+        <div class="text">Picture One</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="pics_videos/img_pic2.jpg" style="width:100%" alt = "House Pic2">
+        <div class="text">Picture Two</div>
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="pics_videos/img_pic3.jpg" style="width:100%" alt = "House Pic3">
+        <div class="text">Picture Three</div>
+      </div>
+      <!-- Previous and Next buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!-- The dots/circle selector indicator -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div>
   </section>
   
 </body>
